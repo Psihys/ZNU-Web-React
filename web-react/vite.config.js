@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/ZNU-Web-React/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
   },
 })

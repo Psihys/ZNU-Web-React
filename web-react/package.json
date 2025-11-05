@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Psihys/ZNU-Web-React",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+   "build": "vite build && echo > docs/.nojekyll",
     "preview": "vite preview",
     "lint": "eslint ."
   },
