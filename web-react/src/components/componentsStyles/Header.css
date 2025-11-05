@@ -1,0 +1,27 @@
+
+
+.header__inner {
+  font-size: var(--font-size-xl);
+}
+
+.nav {
+  flex: 1 1 100%;
+  max-width: 250px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-sm);
+
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+.nav a:hover {
+  color: var(--secondary-primary-color);
+}
+
+.nav a.active {
+  color: var(--active-color);
+}
