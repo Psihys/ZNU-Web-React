@@ -1,6 +1,3 @@
-import './App.css'
-import './Root.css'
-
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactsPage from './pages/ContactsPage'
@@ -9,6 +6,8 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import SideBar from './components/SideBar'
+
+import './App.css'
 
 function App() {
   return (
